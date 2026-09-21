@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matemáticas en la Vida - Aprende matemáticas del liceo y universidad conectadas con el mundo real. Modelación matemática aplicada a la vida cotidiana.">
+    <meta name="keywords" content="matematicas, educacion, liceo, universidad, modelacion matematica, cursos online, asesorias">
+    <title>Matemáticas en la Vida</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">∑</span>
+                <span class="logo-text">Matemáticas en la Vida</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#filosofia">Filosofía</a></li>
+                <li><a href="#aprenderas">¿Qué Aprenderás?</a></li>
+                <li><a href="#oferta">Oferta Educativa</a></li>
+                <li><a href="#por-que">¿Por qué nosotros?</a></li>
+                <li><a href="#contacto" class="btn-nav">Comenzar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Matemáticas en la Vida</h1>
+            <p class="hero-subtitle">Aprende las matemáticas del liceo y la universidad conectadas con el mundo real</p>
+            <div class="hero-cta">
+                <a href="#oferta" class="btn btn-primary">Explora nuestros cursos</a>
+                <a href="#filosofia" class="btn btn-secondary">Conoce nuestra filosofía</a>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- FILOSOFÍA -->
+    <section id="filosofia" class="section section-filosofia">
+        <div class="container">
+            <div class="section-badge">🌟 Nuestra Filosofía</div>
+            <h2 class="section-title">De la Abstracción a la Práctica</h2>
+            <div class="filosofia-grid">
+                <div class="filosofia-text">
+                    <p class="lead">En <strong>Matemáticas en la Vida</strong> transformamos la enseñanza tradicional basada en la memorización de algoritmos y fórmulas desconectadas.</p>
+                    <p>Implementamos la <strong>modelación matemática</strong>, un enfoque donde los conceptos abstractos cobran sentido al aplicarse a situaciones auténticas de la vida cotidiana, los deportes, la tecnología y los negocios.</p>
+                    <p>Aprenderás a traducir problemas reales a lenguaje matemático, desarrollar el pensamiento crítico y comprender el <strong>"porqué"</strong> de cada fórmula.</p>
+                </div>
+                <div class="filosofia-visual">
+                    <div class="visual-card">
+                        <div class="visual-icon">📐</div>
+                        <div class="visual-label">Abstracto</div>
+                        <div class="visual-arrow">→</div>
+                        <div class="visual-icon">🌍</div>
+                        <div class="visual-label">Real</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUÉ APRENDERÁS -->
+    <section id="aprenderas" class="section section-aprenderas">
+        <div class="container">
+            <div class="section-badge">🚀 ¿Qué Aprenderás?</div>
+            <h2 class="section-title">Matemáticas aplicadas a lo que te importa</h2>
+            <p class="section-desc">Cubrimos todo el programa académico de <strong>bachillerato/liceo y nivel universitario inicial</strong>, aplicado a campos de interés práctico:</p>
+            
+            <div class="topics-grid">
+                <div class="topic-card" style="--accent: #e74c3c">
+                    <div class="topic-icon">⚾</div>
+                    <h3>Física y Deportes</h3>
+                    <p>Análisis de trayectorias parabólicas en el béisbol, cálculo de ángulos de tiro y geometría del campo mediante ecuaciones cuadráticas y trigonometría.</p>
+                </div>
+                
+                <div class="topic-card" style="--accent: #2ecc71">
+                    <div class="topic-icon">💸</div>
+                    <h3>Finanzas e Inversión</h3>
+                    <p>Simulación de planes de ahorro, cálculo de interés simple e interés compuesto, márgenes de ganancia y presupuestos para jóvenes emprendedores.</p>
+                </div>
+                
+                <div class="topic-card" style="--accent: #3498db">
+                    <div class="topic-icon">🔒</div>
+                    <h3>Ciberseguridad y Tecnología</h3>
+                    <p>Cómo los números primos y la aritmética modular protegen tus mensajes y transacciones bancarias en internet mediante criptografía.</p>
+                </div>
+                
+                <div class="topic-card" style="--accent: #9b59b6">
+                    <div class="topic-icon">📈</div>
+                    <h3>Cálculo y Modelado del Cambio</h3>
+                    <p>Uso de derivadas para analizar la velocidad de cambio instantáneo, optimización de costos, modelos de crecimiento y tasas en tiempo real.</p>
+                </div>
+                
+                <div class="topic-card" style="--accent: #f39c12">
+                    <div class="topic-icon">🍳</div>
+                    <h3>Cocina y Vida Cotidiana</h3>
+                    <p>Proporciones, escalas de recetas, conversión de unidades y geometría espacial aplicada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFERTA EDUCATIVA -->
+    <section id="oferta" class="section section-oferta">
+        <div class="container">
+            <div class="section-badge">💻 Oferta Educativa</div>
+            <h2 class="section-title">Elige cómo quieres aprender</h2>
+            
+            <div class="oferta-grid">
+                <div class="oferta-card">
+                    <div class="oferta-header">
+                        <div class="oferta-icon">📚</div>
+                        <h3>Cursos Online Modulares</h3>
+                    </div>
+                    <p class="oferta-desc">Programas flexibles donde el estudiante o su familia pueden <strong>elegir los temas que desean ver</strong> según sus necesidades escolares o intereses personales.</p>
+                    <ul class="oferta-features">
+                        <li>Aprende a tu propio ritmo</li>
+                        <li>Guías interactivas</li>
+                        <li>Ejercicios prácticos</li>
+                        <li>Recursos visuales</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary btn-block">Explorar cursos</a>
+                </div>
+                
+                <div class="oferta-card featured">
+                    <div class="oferta-badge">Popular</div>
+                    <div class="oferta-header">
+                        <div class="oferta-icon">🎥</div>
+                        <h3>Asesorías en Vivo</h3>
+                    </div>
+                    <p class="oferta-desc">Sesiones sincrónicas con profesores donde resolvemos dudas en tiempo real, trabajamos en la resolución de guías de liceo o universidad.</p>
+                    <ul class="oferta-features">
+                        <li>1 a 1 y grupales</li>
+                        <li>GeoGebra y Desmos</li>
+                        <li>Quizzes interactivos en Kahoot</li>
+                        <li>Visualización de conceptos</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary btn-block">Agendar asesoría</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- POR QUÉ ELEGIRNOS -->
+    <section id="por-que" class="section section-porque">
+        <div class="container">
+            <div class="section-badge">🎯 ¿Por qué elegirnos?</div>
+            <h2 class="section-title">Matemáticas en la Vida</h2>
+            
+            <div class="porque-grid">
+                <div class="porque-card">
+                    <div class="porque-number">01</div>
+                    <h3>Aprendizaje Activo</h3>
+                    <p>No te limitas a escuchar; te conviertes en un investigador que resuelve retos del mundo real.</p>
+                </div>
+                
+                <div class="porque-card">
+                    <div class="porque-number">02</div>
+                    <h3>Acompañamiento Personalizado</h3>
+                    <p>Adaptamos las clases a tu ritmo de aprendizaje y metas académicas específicas.</p>
+                </div>
+                
+                <div class="porque-card">
+                    <div class="porque-number">03</div>
+                    <h3>Aprobación con Significado</h3>
+                    <p>Prepárate para tus exámenes escolares o universitarios entendiendo la utilidad real de lo que estudias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / CONTACTO -->
+    <section id="contacto" class="section section-cta">
+        <div class="container">
+            <h2 class="cta-title">¡Comienza hoy mismo!</h2>
+            <p class="cta-desc">Agenda tu primera asesoría en vivo o explora nuestro catálogo de cursos electivos.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/580000000000" class="btn btn-whatsapp" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Escribenos por WhatsApp
+                </a>
+                <a href="https://github.com/neoeliecer/matematicasenlavida" class="btn btn-github" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    Visita nuestro GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">∑</span>
+                <span>Matemáticas en la Vida</span>
+            </div>
+            <p class="footer-text">Transformando la enseñanza de las matemáticas mediante la modelación matemática aplicada.</p>
+            <div class="footer-links">
+                <a href="#filosofia">Filosofía</a>
+                <a href="#aprenderas">Temas</a>
+                <a href="#oferta">Cursos</a>
+                <a href="#por-que">Por qué nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Matemáticas en la Vida. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
